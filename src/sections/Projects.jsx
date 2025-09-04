@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { FiExternalLink, FiGithub, FiEye } from 'react-icons/fi'
-
+import ELocate from '../assets/E-Locate.png'
 const Projects = () => {
   const projects = [
     {
@@ -17,7 +17,7 @@ const Projects = () => {
       id: 2,
       title: 'Hardware Inventory Management System',
       description: 'Develop a full-stack Hardware Inventory Management System for a college enabling branch-wise and lab-wise hardware tracking with a responsive Tailwind CSS UI.',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop',
+      image: {ELocate},
       tech: ['React', 'HTML', 'CSS', 'Material-UI', 'Redux','Firebase'],
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com',
