@@ -40,8 +40,8 @@ const Projects = () => {
       description: 'A responsive portfolio website built with modern web technologies and featuring smooth animations and dark mode.',
       image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop',
       tech: ['React', 'Tailwind CSS', 'Framer Motion', 'Vite'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      liveUrl: 'https://portfolio-zeta-navy-75.vercel.app/',
+      githubUrl: 'https://github.com/SwapnilDarwante/Portfolio',
       featured: false
     },
     {
