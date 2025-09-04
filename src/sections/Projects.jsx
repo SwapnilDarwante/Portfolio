@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion'
 import { FiExternalLink, FiGithub, FiEye } from 'react-icons/fi'
-import ELocate from '../assets/E-Locate.png'
+
+import ELocate from '../assets/E-Locate.png';
 const Projects = () => {
   const projects = [
     {
       id: 1,
       title: 'E-Locate',
       description: 'A full-stack platform featuring user authentication, interactive map-based recycling point locator, pickup scheduling, and responsive UI with Tailwind CSS.',
-      image: 'https://private-user-images.githubusercontent.com/65482186/286958510-02809587-82e8-4633-a53e-74e7f74654b4.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY1NDU1NDAsIm5iZiI6MTc1NjU0NTI0MCwicGF0aCI6Ii82NTQ4MjE4Ni8yODY5NTg1MTAtMDI4MDk1ODctODJlOC00NjMzLWE1M2UtNzRlN2Y3NDY1NGI0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODMwVDA5MTQwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ3MTA5N2JjZjZhYzk3Nzg4MzVkZGQ0YmVjNjgxYzI0NjAzZGIxMTg3ZTY4Mzk5NTM4MWFjOTc0N2U2NTNiNGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qd9mIo_yT5ScqM1UqM-wmkSny7ED1soacIe5QoK6NHQ',
+      image: ELocate,
       tech: ['React', 'Node.js', 'ExpressJs','MongoDB', 'NextJs', 'Tailwind CSS'],
       liveUrl: 'https://elocateinnovate.vercel.app/',
       githubUrl: 'https://github.com/SwapnilDarwante/Elocate',
@@ -17,7 +18,7 @@ const Projects = () => {
       id: 2,
       title: 'Hardware Inventory Management System',
       description: 'Develop a full-stack Hardware Inventory Management System for a college enabling branch-wise and lab-wise hardware tracking with a responsive Tailwind CSS UI.',
-      image: {ELocate},
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop',
       tech: ['React', 'HTML', 'CSS', 'Material-UI', 'Redux','Firebase'],
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com',
